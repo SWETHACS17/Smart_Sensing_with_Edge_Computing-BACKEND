@@ -1,0 +1,8 @@
+fastapi==0.103.0        # Backend framework
+uvicorn==0.23.2         # ASGI server
+pyserial==3.5           # For COM port / Bluetooth
+websockets==11.0.3      # For WebSocket server
+pydantic==2.3.0         # Data validation
+numpy                   # For ML preprocessing
+scikit-learn            # (if simple ML models)
+pandas                 # Data manipulation
