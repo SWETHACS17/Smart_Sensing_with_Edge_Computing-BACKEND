@@ -87,11 +87,9 @@ timestamp: "2025-10-14T08:00:00Z"
 
 ## Testing Without STM32
 
-If you don’t have the STM32 connected, you can use a fake data generator script:
-
-node utils/mockSerial.js
-
-This will send fake sensor data to your backend for testing.
+- If you don’t have the STM32 connected, you can use a fake data generator script:
+- node utils/mockSerial.js
+- This will send fake sensor data to your backend for testing.
 
 
 
