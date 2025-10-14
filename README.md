@@ -34,12 +34,12 @@ npm install
 
 5. Create a file `.env` in the backend folder with these settings:
 
-  PORT=5000```
-  MONGODB_URI=mongodb://localhost:27017/smart-sensing-db
-  SERIAL_PORT=COM3
-  SERIAL_BAUDRATE=9600
-  NODE_ENV=development
-
+  1. PORT=5000
+  2. MONGODB_URI=mongodb://localhost:27017/smart-sensing-db
+  3. SERIAL_PORT=COM3
+  4. SERIAL_BAUDRATE=9600
+  5. NODE_ENV=development
+  
 Make sure `SERIAL_PORT` matches your computer’s port that STM32 connects to.
 
 6. Start the backend server:
