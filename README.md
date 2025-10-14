@@ -67,7 +67,7 @@ Backend will be available at [http://localhost:5000](http://localhost:5000).
 
 
 ## MongoDB Data Format Example
-```json
+```
 {
 temperature: 24.7,
 humidity: 56.2,
