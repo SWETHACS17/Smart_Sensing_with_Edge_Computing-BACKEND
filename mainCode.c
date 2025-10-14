@@ -1,4 +1,4 @@
-#include "stm32f4xx.h"
+/* #include "stm32f4xx.h"
 #include <stdio.h>
 
 // Sensor addresses
@@ -90,6 +90,7 @@ int main(void)
             sprintf(msg, "Progress: %lus / 120s\r\n", (unsigned long)i);
             UART2_SendString(msg);
         }
+
 
         delay_ms(1000);  // 1 sec between readings
     }
@@ -190,3 +191,6 @@ void delay_ms(uint32_t ms)
     }
     SysTick->CTRL = 0;
 }
+
+
+*/
