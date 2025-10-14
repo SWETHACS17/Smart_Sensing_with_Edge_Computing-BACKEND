@@ -2,7 +2,6 @@
 
 Backend handles collecting sensor data from the STM32F401 board via UART and stores it in MongoDB. It also provides API endpoints for the frontend to get this data.
 
----
 
 ## How It Works in Simple Terms
 
@@ -11,7 +10,6 @@ Backend handles collecting sensor data from the STM32F401 board via UART and sto
 - The Node.js backend reads this serial data, saves it in a MongoDB database.
 - The frontend asks the backend for this saved data to display.
 
----
 
 ## Tools and Libraries Used
 
@@ -21,25 +19,6 @@ Backend handles collecting sensor data from the STM32F401 board via UART and sto
 - dotenv for managing settings
 - CORS enabled so frontend can access APIs
 
----
-
-## File Structure
-
-backend/
-├── server.js (main starting file)
-├── models/
-│ └── SensorData.js (defines how sensor data is saved)
-├── routes/
-│ └── sensorRoutes.js (API routes)
-├── utils/
-│ └── serialReader.js (processes serial data)
-├── .env (your environment settings)
-├── package.json
-└── README-backend.md
-
-text
-
----
 
 ## Getting Started
 
