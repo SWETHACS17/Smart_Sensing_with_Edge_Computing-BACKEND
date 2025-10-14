@@ -59,22 +59,22 @@ Backend will be available at [http://localhost:5000](http://localhost:5000).
 
 ## Example of Incoming Serial Data
 
-The STM32 sends sensor data in this format:
+- The STM32 sends sensor data in this format:
 
-T:24.7,H:56.2,P:1003.4
+- T:24.7,H:56.2,P:1003.4
 
-The backend reads this string, extracts temperature, humidity, and pressure, and saves them to the database with a timestamp.
+- The backend reads this string, extracts temperature, humidity, and pressure, and saves them to the database with a timestamp.
 
 
 ## MongoDB Data Format Example
-
+```json
 {
 temperature: 24.7,
 humidity: 56.2,
 pressure: 1003.4,
 timestamp: "2025-10-14T08:00:00Z"
 }
-
+```
 
 ## Troubleshooting Tips
 
