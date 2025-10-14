@@ -27,11 +27,13 @@ Backend handles collecting sensor data from the STM32F401 board via UART and sto
 2. Connect your STM32 board to your computer.
 
 3. Open terminal and go to backend folder:
+```bash
 cd backend
-
+```
 4. Install dependencies:
+```bash
 npm install
-
+```
 5. Create a file `.env` in the backend folder with these settings:
     - PORT=5000
     - MONGODB_URI=mongodb://localhost:27017/smart-sensing-db
@@ -42,8 +44,9 @@ npm install
 Make sure `SERIAL_PORT` matches your computer’s port that STM32 connects to.
 
 6. Start the backend server:
+```bash
 npm start
-
+```
 Backend will be available at [http://localhost:5000](http://localhost:5000).
 
 
